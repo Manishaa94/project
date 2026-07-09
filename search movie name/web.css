@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding:0;
+ box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(212, 241, 241);
+}
+   
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2636;
+    height: 60px;
+
+
+
+}
+.logo img{
+
+    width: 50px;
+    border-radius: 50%;
+   
+
+}
+ header nav  { 
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    
+}
+header nav :hover{
+    color: #e0dcd9;
+    text-decoration: underline;
+    text-shadow: 2px 2px #101212; 
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style:oblique;
+  }
+  .search-box input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .search-box button {
+    padding: 10px 20px;
+    background-color: #633713;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  .search-box button:hover {
+    background-color: #e0dcd9;
+  }
+  
+
+.tb{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px #0b404d; 
+
+
+}
+
+.a1 {
+  margin: 40px;
+  padding: 20px;
+  gap: 20px;
+
+}
+main {
+  margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(228, 9, 9, 0.2);
+   
+   
+  }
+  
+   .card :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1 sec;
+   }
+  .a1 img{
+        width: 180px;
+        height: 200px;
+  }
+  .item1{
+    text-align: center;
+    background-color: rgb(177, 246, 223);
+    
+
+  }
+  p{
+    text-align: center;
+    background-color: rgb(154, 244, 214);
+  }
+  .footer> h2{
+     text-align: center;
+     height: 50px;
+     background-color: #3e4141;
+     padding: 5px;
+   }   

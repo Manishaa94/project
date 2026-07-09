@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 241, 241);
+}
+
+header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #646464;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+header nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav li {
+    list-style: none;
+    cursor: pointer;
+}
+
+header nav li:hover {
+    color: #e0dcd9;
+    text-decoration: underline;
+}
+
+.new {
+    color: red;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.search-input {
+    height: 29px;
+    width: 180px;
+    border: none;
+    outline: none;
+}
+
+.search-bar .material-symbols-outlined {
+    color: #333;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.bag {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+}
+
+.material-symbols-outlined {
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bag .item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 6px;
+    display: none;
+}
+
+.slide {
+    margin-top: 60px;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(236, 251, 251);
+    height: 500px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card .men {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.price .discounted-price {
+    font-weight: bold;
+}
+
+.price .original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 13px;
+}
+
+.price .discount {
+    color: green;
+    font-size: 13px;
+}
+
+.card .add-to-bag {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3f6c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
